@@ -10,12 +10,16 @@ the target website. You must make your program generate a QR code that takes som
 
 ## Submission Requirements:
 
-1. Add the QR code image that links to your own GitHub homepage that you generate to the readme.md file, so that it appears below.
+1. Add the QR code image that links to your own GitHub homepage that you generate to the readme.md file, so that it appears below   
 
-PUT YOUR QR CODE IMAGE
+<img width="351" alt="Captura de pantalla 2024-03-30 a la(s) 12 40 59 a m" src="https://github.com/jar285/improved-qr-docker-2024/assets/114256420/88fb7591-76f2-4d40-bb72-62149c2caaf7">
+
+
+
 
 2.  Add an image of viewing the log of successfully creating the QR code below.
- PUT YOUR LOG IMAGE HERE
+    <img width="722" alt="Captura de pantalla 2024-03-30 a la(s) 12 40 12 a m" src="https://github.com/jar285/improved-qr-docker-2024/assets/114256420/7c4a65f9-52a6-477e-8a3d-203a1c4baa6c">
+
 ## Lesson Video
 
 1.  [Scaling and Backend Software Engineering](https://youtu.be/v3LxCmYQVS4)
