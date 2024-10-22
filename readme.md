@@ -88,6 +88,20 @@ A comprehensive command that configures the QR code settings and mounts volumes 
 docker run -v .:/app qrcode --url htt/www.nobdoy.com
 ```
 This is how you would set the url for the qr code
+
+## Changing the arg for the url from the terminal
+1. Clear Docker Cache and Rebuild Image
+First, ensure that you're working with the most up-to-date image. You can clear the cache and rebuild the image by running the following commands:
+```
+docker system prune -a  # This will remove all unused images, containers, and cache
+docker build -t qrprog .  # Rebuild the image from scratch
+```
+2. Then, run the container again, passing the --url argument explicitly:
+```
+docker run -v $(pwd):/app qrprog --url "https://new-url-you-want.com"
+
+```
+
 ### Basic Docker Commands Explained
 
 **Building an Image**
